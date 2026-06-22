@@ -1,33 +1,32 @@
-# Chalk & Slate — Tic-Tac-Toe Game
+# Chalk & Slate — Tic-Tac-Toe
 
 ![SkillCraft](https://img.shields.io/badge/SkillCraft-Technology-2C2C2C?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-v6-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-A modern, responsive, and interactive Tic-Tac-Toe game built using React, Vite, React Router, Tailwind CSS, and CSS Modules as part of the SkillCraft Technology Web Development Internship — Task 03.
+A modern, responsive, and interactive Tic-Tac-Toe game built using React, Vite, JavaScript, Tailwind CSS, React Router, and CSS Modules as part of the SkillCraft Technology Web Development Internship — Task 03.
 
-Chalk & Slate provides an engaging gaming experience with local multiplayer support, AI-powered gameplay, multiple difficulty levels, smooth animations, and a unique chalkboard-inspired design.
+Chalk & Slate provides an engaging gaming experience with local multiplayer support, AI-powered gameplay, multiple difficulty levels, animated winning effects, and a unique chalkboard-inspired design.
 
 ---
 
 ## Overview
 
-Chalk & Slate is an interactive Tic-Tac-Toe platform designed to deliver a polished and enjoyable gaming experience.
+Chalk & Slate is an interactive Tic-Tac-Toe platform designed to provide a fun and visually appealing gaming experience.
 
 The application enables users to:
 
 - Play against another player on the same device
-- Play against a computer opponent
-- Choose from multiple AI difficulty levels
-- Experience animated gameplay interactions
-- Receive instant game results
+- Challenge a computer opponent
+- Select from multiple AI difficulty levels
+- Experience smooth game animations
+- View instant game results
 - Restart and replay unlimited times
-- Enjoy a fully responsive interface
+- Enjoy a responsive interface across devices
 
-The project demonstrates practical React development concepts including routing, state management, reusable components, game logic implementation, AI algorithms, and responsive UI design.
+The project demonstrates practical React development concepts including state management, routing, reusable components, game logic implementation, AI algorithms, and responsive UI design.
 
 ---
 
@@ -52,8 +51,8 @@ The project demonstrates practical React development concepts including routing,
 
 - Welcome interface
 - Game mode selection
-- AI difficulty selection
-- Responsive design
+- Difficulty selection
+- Quick game start
 
 ### Multiple Game Modes
 
@@ -108,10 +107,11 @@ Users can:
 
 Features include:
 
-- Mobile-friendly layout
+- Responsive layout
+- Modern design
+- Mobile-friendly experience
 - Interactive game board
-- Smooth transitions
-- Chalkboard-inspired visuals
+- Smooth animations
 
 ---
 
@@ -138,6 +138,7 @@ SCT_WD_3/
 ├── index.html
 ├── vite.config.js
 ├── package.json
+├── eslint.config.js
 ├── .gitignore
 │
 └── src/
@@ -204,9 +205,9 @@ http://localhost:5173/
 
 1. Launch the application.
 2. Choose a game mode.
-3. Select AI difficulty if required.
-4. Start the match.
-5. Take turns placing marks on the board.
+3. Select AI difficulty if playing against the computer.
+4. Start the game.
+5. Take turns placing X and O marks.
 6. Try to complete a row, column, or diagonal.
 7. View the game result instantly.
 8. Restart and play again anytime.
@@ -221,14 +222,14 @@ The application checks:
 
 - 3 horizontal rows
 - 3 vertical columns
-- 2 diagonals
+- 2 diagonal combinations
 
 ### Draw Detection
 
-The game automatically detects:
+The game automatically detects when:
 
-- Full board
-- No winner available
+- All cells are filled
+- No winning combination exists
 
 ### Computer AI
 
@@ -236,18 +237,17 @@ Difficulty behavior:
 
 #### Easy
 
-- Random valid move
+- Random valid moves
 
 #### Medium
 
-- 50% random move
-- 50% optimal move
+- Mix of random and optimal moves
 
 #### Hard
 
 - Minimax algorithm
 - Optimal gameplay strategy
-- Depth-weighted scoring
+- Depth-based scoring
 
 ---
 
@@ -263,7 +263,7 @@ Difficulty behavior:
 
 ---
 
-## Design Highlights
+## Design Notes
 
 The visual identity of Chalk & Slate is inspired by traditional classroom chalkboards.
 
@@ -274,23 +274,23 @@ Features include:
 - Chalk mark animations
 - Script-style typography
 - Animated winning strike-through line
-- Clean and immersive game experience
+- Immersive game environment
 
 ---
 
 ## Learning Outcomes
 
 - React Fundamentals
-- Component Architecture
 - State Management
 - React Router
+- Component Architecture
 - Event Handling
 - Game Logic Development
 - Minimax Algorithm
 - AI Opponent Development
-- Tailwind CSS
 - CSS Modules
-- Responsive Design
+- Tailwind CSS
+- Responsive UI Design
 - Git & GitHub Workflow
 
 ---
