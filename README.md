@@ -40,7 +40,7 @@ The project demonstrates practical React development concepts including state ma
 | Task Number | Task 03 |
 | Task Name | Tic-Tac-Toe Game |
 | Repository Name | SCT_WD_3 |
-| Intern ID | SCT/JUNE26/2530 |
+| Intern ID | SCT/JUN26/2960 |
 | Project Name | Chalk & Slate |
 
 ---
@@ -172,7 +172,7 @@ SCT_WD_3/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/dk0009-pv/SCT_WD_3.git
+git clone https://github.com/karthikchintanippu/SCT_WD_3.git
 ```
 
 ### Navigate to Project
@@ -297,15 +297,15 @@ Features include:
 
 ## Repository
 
-Repository: https://github.com/dk0009-pv/SCT_WD_3
+Repository: https://github.com/karthikchintanippu/SCT_WD_3
 
 ---
 
 ## Author
 
-**Dinesh Kumar Pulagalla**
+**CHINTANIPPU KARTHIK**
 
-GitHub: https://github.com/dk0009-pv
+GitHub: https://github.com/karthikchintanippu
 
 Repository: SCT_WD_3
 
