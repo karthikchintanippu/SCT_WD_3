@@ -1,0 +1,52 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.title {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.titleStroke {
+  position: relative;
+}
+
+.titleStroke::after {
+  content: '';
+  position: absolute;
+  left: -4%;
+  right: -4%;
+  bottom: 6px;
+  height: 2px;
+  background: #5C6B66;
+  opacity: 0.5;
+  transform: rotate(-0.6deg);
+}
+
+.modeCard {
+  position: relative;
+  border: 1px solid #3A4843;
+  border-radius: 10px;
+  padding: 28px 24px;
+  text-align: left;
+  width: 100%;
+  transition: border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.modeCard:hover {
+  border-color: #5C6B66;
+  background-color: rgba(242, 239, 230, 0.03);
+  transform: translateY(-2px);
+}
+
+.modeCard:focus-visible {
+  outline: 2px solid #6FA8DC;
+  outline-offset: 3px;
+}

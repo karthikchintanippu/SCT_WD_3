@@ -1,0 +1,22 @@
+.statusBar {
+  position: relative;
+}
+
+.statusBar::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #3A4843 20%, #3A4843 80%, transparent);
+}
+
+.turnDot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: background-color 0.25s ease;
+}
