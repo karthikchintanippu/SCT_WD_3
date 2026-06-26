@@ -319,4 +319,4 @@ This project was developed as part of the SkillCraft Technology Web Development 
 
 ## Footer Credit
 
-Built by Dinesh Kumar Pulagalla · SkillCraft Technology Web Development Task 03
+Built by chintanippu karthik · SkillCraft Technology Web Development Task 03
